@@ -1,0 +1,39 @@
+###
+GET http://localhost:9000/api HTTP/1.1
+
+###
+POST http://localhost:9000/api HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "daniela",
+    "cedula": 425158345,
+    "entidad": "casur",
+    "correo": "juan@gmail.com",
+    "celular": "355569564",
+    "direccion": "calle 150 #12-6",
+    "ciudad": "choco",
+    "conyugue": "vanessa",
+    "cunyuguetel": "546586"
+
+}
+
+###
+DELETE http://localhost:9000/api/3 HTTP/1.1
+
+###
+PUT http://localhost:9000/api/1 HTTP/1.1
+Content-Type: application/json
+
+{
+    "nombre": "camilo",
+    "cedula": 425158345,
+    "entidad": "casur",
+    "correo": "juan@gmail.com",
+    "celular": "355569564",
+    "direccion": "calle 150 #12-6",
+    "ciudad": "choco",
+    "conyugue": "vanessa",
+    "cunyuguetel": "546586"
+
+}
